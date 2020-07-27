@@ -1,0 +1,47 @@
+.banner {
+  width: 100%;
+  height: 95vh;
+}
+
+.banner-img {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* opacity: 0.8; */
+}
+
+.banner-contain {
+  position: absolute;
+  top: 0;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-title {
+  text-align: left;
+  margin-top: 6rem;
+  padding-left: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-image: linear-gradient(
+    rgba(240, 226, 226, 0.266),
+    rgba(247, 235, 235, 0.522)
+  );
+}
+
+.banner-overview {
+  text-align: left;
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  min-width: 300px;
+  max-width: 450px;
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+  background-image: linear-gradient(
+    rgba(240, 226, 226, 0.366),
+    rgba(247, 235, 235, 0.722)
+  );
+}

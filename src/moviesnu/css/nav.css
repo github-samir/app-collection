@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  top: 0;
+  height: 45px;
+  width: 100%;
+  z-index: 3;
+}
+
+.nav_logo {
+  font-size: x-large;
+  font-weight: 500;
+  color: red;
+  position: fixed;
+  padding-left: 10px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.nav_logo_bg {
+  background-color: #111;
+}

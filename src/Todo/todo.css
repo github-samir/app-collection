@@ -1,0 +1,80 @@
+.container {
+  height: 100vh;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: teal;
+  justify-items: center;
+  align-items: center;
+}
+
+.center-div {
+  /* width: 30%;
+  height: 80vh; */
+  border-radius: 20px;
+  background-color: white;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input__text {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid blueviolet;
+  margin: 0 10px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  padding: 0 0 1px 5px;
+}
+.form__contain {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: transparent;
+  border: 2px solid rgba(69, 199, 69, 0.795);
+  padding: 3px 5px;
+  border-radius: 10px;
+  outline: none;
+  transition: all ease-in 320ms;
+}
+button:hover {
+  transform: scale(1.2);
+  background-color: rgba(69, 199, 69, 0.795);
+  color: white;
+}
+
+.item__row {
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.item__name {
+  list-style-type: none;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.del {
+  margin-top: 3px;
+  border-color: rgba(236, 13, 13, 0.856);
+  margin-right: 6px;
+}
+.del:hover {
+  transform: scale(1.2);
+  background-color: rgba(236, 13, 13, 0.856);
+  color: white;
+}
+
+.item_list_div {
+  background-color: transparent;
+  height: 56vh;
+  overflow-y: auto;
+}
